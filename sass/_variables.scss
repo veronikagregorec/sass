@@ -1,5 +1,5 @@
 $primary: #326dee !default;
-$secondary: #1ac886 !default;
+$secondary:  #00ccff !default;
 $error: #d32752;
 $info: #f6c31c;
 
@@ -11,12 +11,14 @@ $colors: (
   "blue": #1919e6,
   "red": #e61919,
   "yellow": #e6e619,
-  "green": #19e635,
+  "green": #1de296,
   "orange": #ffa600,
   "purple": #9900ff,
   "gray": #808080,
   "black": black,
   "white": white,
+  "light-green": #E9FCF5,
+  "light-blue": #E6FAFF
 );
 
 // @debug map-get($colors, "purple");

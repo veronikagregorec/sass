@@ -4,8 +4,15 @@
   margin: 0;
 }
 
+::selection {
+  background-color: #1919e6;
+  color: white;
+}
+
 body {
   font-family: Poppins;
+  background: #E9FCF5;
+  background: linear-gradient(90deg, #E9FCF5 28%, #E6FAFF 60%);
 }
 
 ul {
@@ -19,7 +26,7 @@ a {
 
 hr {
   border: 0;
-  border-top: 1px dotted #efefef;
+  border-top: 1px solid #ddd;
 }
 
 img {
@@ -69,12 +76,6 @@ img {
   }
 }
 @media (min-width: 720px) {
-
-  .col-5-md {
-    box-sizing: border-box;
-    flex-grow: 0;
-    width: 41.6666666667%;
-  }
 
   .col-6-md {
     box-sizing: border-box;
@@ -139,27 +140,23 @@ img {
 }
 
 .text-secondary {
-  color: #1ac886;
-}
-
-.text-hover-secondary:hover {
-  color: #1ac886;
+  color: #00ccff;
 }
 
 .bg-secondary {
-  background-color: #1ac886;
+  background-color: #00ccff;
 }
 
 .bg-secondary-light-5 {
-  background-color: #8de4c3;
+  background-color: #80e6ff;
 }
 
-.bg-secondary-light-9 {
-  background-color: #e8faf3;
+.bg-secondary-light-7 {
+  background-color: #b3f0ff;
 }
 
 .text-secondary-dark-2 {
-  color: #15a06b;
+  color: #00a3cc;
 }
 
 .text-error {
@@ -203,11 +200,11 @@ img {
 }
 
 .text-green {
-  color: #19e635;
+  color: #1de296;
 }
 
 .bg-green {
-  background-color: #19e635;
+  background-color: #1de296;
 }
 
 .text-orange {
@@ -246,8 +243,8 @@ img {
   background-color: #808080;
 }
 
-.bg-gray-light-7 {
-  background-color: #d9d9d9;
+.bg-black {
+  background-color: black;
 }
 
 .text-white {
@@ -322,24 +319,10 @@ img {
   border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
-  background-color: #1ac886;
+  background-color: #00ccff;
 }
 .btn-secondary:hover {
-  background-color: #1ddf95;
-}
-
-.btn-outlined-secondary {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 0.75rem 1.5rem;
-  border-radius: 20px;
-  background-color: #fff;
-  border: 1px solid #1ac886;
-}
-.btn-outlined-secondary:hover {
-  background-color: #1ac886;
+  background-color: #1ad1ff;
 }
 
 .btn-error {
@@ -422,7 +405,7 @@ img {
 .navbar {
   padding: 0.75rem 1.5rem;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
-  background-color: #19e635;
+  background-color: #00ccff;
   position: sticky;
   top: 0;
 }
@@ -437,16 +420,16 @@ img {
   padding: 1.5rem;
 }
 
-.pt-3 {
-  padding-top: 3rem;
+.pt-2 {
+  padding-top: 1.5rem;
 }
 
 .pt-4 {
   padding-top: 4.5rem;
 }
 
-.pb-3 {
-  padding-bottom: 3rem;
+.pb-2 {
+  padding-bottom: 1.5rem;
 }
 
 .pb-4 {

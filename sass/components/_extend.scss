@@ -10,7 +10,7 @@
     @extend .flex-layout;
     padding: $base-padding $base-padding * 2;
     box-shadow: $base-box-shadow;
-    background-color: map-get($colors, "green" );
+    background-color: map-get($colors, "secondary" );
     position: sticky;
     top: 0;
     

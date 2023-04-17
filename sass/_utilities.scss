@@ -12,6 +12,7 @@ $utilities: (
       "5": $base-padding * 8
     ),
   ),
+
   "padding-left": (
     "prefix": "pl",
     "values": (
@@ -23,6 +24,7 @@ $utilities: (
       "5": $base-padding * 8
     ),
   ),
+
   "padding-right": (
     "prefix": "pr",
     "values": (
@@ -34,6 +36,7 @@ $utilities: (
       "5": $base-padding * 8
     ),
   ),
+
   "padding-top": (
     "prefix": "pt",
     "values": (
@@ -45,6 +48,7 @@ $utilities: (
       "5": $base-padding * 8
     ),
   ),
+
   "padding-bottom": (
     "prefix": "pb",
     "values": (
@@ -56,6 +60,7 @@ $utilities: (
       "5": $base-padding * 8
     ),
   ),
+
   "margin": (
     "prefix": "m",
     "values": (
@@ -67,6 +72,7 @@ $utilities: (
       "5": $base-margin * 8
     ),
   ),
+
   "margin-left": (
     "prefix": "ml",
     "values": (
@@ -78,6 +84,7 @@ $utilities: (
       "5": $base-margin * 8
     ),
   ),
+
   "margin-right": (
     "prefix": "mr",
     "values": (
@@ -89,6 +96,7 @@ $utilities: (
       "5": $base-margin * 8
     ),
   ),
+
   "margin-top": (
     "prefix": "mt",
     "values": (
@@ -100,6 +108,7 @@ $utilities: (
       "5": $base-margin * 8
     ),
   ),
+
   "margin-bottom": (
     "prefix": "mb",
     "values": (
@@ -127,6 +136,7 @@ $utilities: (
       "100": 1,
     ),
   ),
+
   "border-radius": (
     "prefix": "br",
     "values": (
@@ -138,6 +148,7 @@ $utilities: (
       "full": 50%,
     )
   ),
+
   "display": (
     "prefix": "display",
     "values": (
@@ -148,6 +159,7 @@ $utilities: (
       "i-b": inline-block
     )
   ),
+  
   "font-size": (
     "prefix": "font",
     "values": (
