@@ -1,6 +1,6 @@
 # Sass
 
-The library with variables, colors, breakpoints, buttons, various utilities and more.
+The library with variables, colors, breakpoints, buttons, various utilities, and more.
 
 ## Folder Structure
 
